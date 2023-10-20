@@ -1,4 +1,4 @@
-package com.educandoweb.course.config;
+package com.robertocosta.course.config;
 
 import java.time.Instant;
 import java.util.Arrays;
@@ -8,15 +8,15 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.educandoweb.course.entities.Category;
-import com.educandoweb.course.entities.Order;
-import com.educandoweb.course.entities.Product;
-import com.educandoweb.course.entities.User;
-import com.educandoweb.course.entities.enums.OrderStatus;
-import com.educandoweb.course.repositories.CategoryRepository;
-import com.educandoweb.course.repositories.OrderRepository;
-import com.educandoweb.course.repositories.ProductRepository;
-import com.educandoweb.course.repositories.UserRepository;
+import com.robertocosta.course.entities.Category;
+import com.robertocosta.course.entities.Order;
+import com.robertocosta.course.entities.Product;
+import com.robertocosta.course.entities.User;
+import com.robertocosta.course.entities.enums.OrderStatus;
+import com.robertocosta.course.repositories.CategoryRepository;
+import com.robertocosta.course.repositories.OrderRepository;
+import com.robertocosta.course.repositories.ProductRepository;
+import com.robertocosta.course.repositories.UserRepository;
 
 @Configuration
 @Profile("test")

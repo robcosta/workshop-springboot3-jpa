@@ -1,10 +1,10 @@
-package com.educandoweb.course.entities;
+package com.robertocosta.course.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
 
-import com.educandoweb.course.entities.enums.OrderStatus;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.robertocosta.course.entities.enums.OrderStatus;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
